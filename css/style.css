@@ -1,0 +1,113 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    
+}
+
+#clock {
+    color: beige;
+    font-size: 100px;
+    font-weight: lighter;
+    font-style:initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px burlywood;
+    padding: 10% 34% 1px;
+    margin-top: -50px;
+    margin-bottom: 1px;
+}
+
+form {
+    padding: 1px 35% 1px;
+}
+
+#input-name {
+    padding: 2px 70px 2px;
+    margin: 1px;
+}
+
+#input-todo {
+    padding: 2px 100px 2px;
+    margin: 1px;
+}
+
+input::placeholder {
+    font-style: italic;
+    text-align: center;
+    color: darkolivegreen;
+}
+
+#name-btn {
+    padding: 2px 5px 2px;
+    margin: 1px;
+}
+
+#greeting {
+    color:darkolivegreen;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style:initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 1px rgb(1, 48, 33);
+    padding: 1px 40% 1px;
+    margin: 10px 1px 20px 1px
+/* 이름 입력 form, 로그인버튼 */
+}
+
+#quote {
+    text-align: center;
+    color:rgb(112, 126, 86);
+    font-size: 18px;
+    font-weight: lighter;
+    font-style:initial;
+    text-shadow: 1px 1px 2px pink;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+#weather {
+    font-size: 20px;
+    text-align: left;
+    color:pink;
+    text-shadow: 1px 1px 2px rgb(112, 126, 86);
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-style: italic;
+}
+
+ul {
+    text-align: center;
+}
+ul button {
+    color: rgb(236, 109, 130);
+    margin: 5px 10px 5px;
+    border: 1px rgb(1, 48, 33);
+    background-color: none;
+    border-radius: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+ul li span {
+    padding: 1px 200px 1px;
+    margin: 2px;
+    color:rgb(59, 132, 108, 0.8);
+    font-size: 25px;
+    font-weight:normal;
+    -webkit-text-stroke: 0.2px rgb(48, 41, 7);
+    background-color: rgb(255, 255, 255, 0.5) ;
+    border-radius: 20px;
+    
+}
